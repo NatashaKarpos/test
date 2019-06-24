@@ -82,3 +82,12 @@ if(appData.moneyPerDay < 100) {
 }   else {
     console.log("произошла ошибка");
 }
+
+ let i = prompt("введите число больше 100", "");
+    if (i < 100) {
+        i = prompt("введите число больше 100", "");
+    } else if (i == "") {
+        alert("Вы нажали отмену");
+    } else {
+        alert("ok")
+    };
